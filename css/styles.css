@@ -1,5 +1,6 @@
 body {
     background-color: #fff;
+    color: #434455;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -13,10 +14,10 @@ ul {
 
 .logo {
     color: #2E2F42;
-        font-family: Raleway;
+        font-family: Raleway, sans-serif;
         font-size: 18px;
         font-weight: 700;
-        line-height: 1.16px;
+        line-height: 1.17px;
         letter-spacing: 0.03em;
         text-transform: uppercase;
 }
@@ -24,10 +25,10 @@ ul {
 
 .logo-web {
     color:#4D5AE5;
-        font-family: Raleway;
+        font-family: Raleway, sans-serif;
         font-size: 18px;
         font-weight: 700;
-        line-height: 1.16;
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
 }
@@ -45,8 +46,8 @@ ul {
     color: #404BBF;
 }
 
-.studio:active {
-    text-decoration: underline;
+.address {
+        font-style: normal;
 }
 
 .address-cont {
@@ -55,7 +56,6 @@ ul {
         font-weight: 400;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        font-style: normal;
 }
 
 .address-cont:hover,
@@ -69,7 +69,7 @@ ul {
         height: 600px;
 }
 
-h1 {
+.main-title {
 color:#FFF;
     text-align: center;
     font-size: 56px;
@@ -78,19 +78,31 @@ color:#FFF;
     letter-spacing: 0.02em;
 }
 
-button {
+.button {
+     font-family: "Roboto", sans-serif;
+     font-size: 16px;
+     font-weight: 500;
+     line-height: 1.5;
+     letter-spacing: 0.04em;
     color: #FFF;
     border-radius: 4px;
         background: var(--IRIS, #4D5AE5);
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+        cursor: pointer;
 }
 
-button:hover,
-button:focus {
+.button:hover,
+.button:focus {
+     font-family: "Roboto", sans-serif;
+     font-weight: 500;
+     font-size: 16px;
+     line-height: 1.5;
+     letter-spacing: 0.04em;
     color: #FFF;
 border-radius: 4px;
     background: var(--OCEAN, #404BBF);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
 }
 
 .advantages-title {
@@ -175,7 +187,7 @@ border-radius: 4px;
         letter-spacing: 0.02em;
 }
 
-footer {
+.footer {
     background: var(--NAVY-BLUE, #2E2F42);
     width: 1440px;
         height: 312px;
@@ -184,20 +196,20 @@ footer {
 
 .footer-logo {
     color: var(--CLOUD, #F4F4FD);
-        font-family: Raleway;
+        font-family: Raleway, sans-serif;
         font-size: 18px;
         font-weight: 700;
-        line-height: 1.16;
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
 }
 
 .footer-logo-web {
     color: var(--IRIS, #4D5AE5);
-        font-family: Raleway;
+        font-family: Raleway, sans-serif;
         font-size: 18px;
         font-weight: 700;
-        line-height: 1.16;
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
 }
