@@ -65,8 +65,6 @@ ul {
 
 .first-section {
     background-color: #2E2F42;
-    width: 1440px;
-        height: 600px;
 }
 
 .main-title {
@@ -137,8 +135,6 @@ border-radius: 4px;
 
 .team-item {
     background-color: #FFF;
-    width: 264px;
-    height: 380px;
 }
 
 .team-name {
@@ -169,7 +165,6 @@ border-radius: 4px;
         text-transform: capitalize;
 }
 
-/* item Portfolio ??? */
 
 .portfolio-item-name {
     color: var(--NAVY-BLUE, #2E2F42);
@@ -189,9 +184,6 @@ border-radius: 4px;
 
 .footer {
     background: var(--NAVY-BLUE, #2E2F42);
-    width: 1440px;
-        height: 312px;
-        flex-shrink: 0;
 }
 
 .footer-logo {
